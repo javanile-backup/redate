@@ -1,0 +1,20 @@
+{
+    "name": "javanile/schemadb",
+    "type": "library",
+    "description": "Powered PHP Database Abstraction Layer",
+    "keywords": ["schemadb", "database", "persistence", "queryobject"],
+    "homepage": "http://www.javanile.org",
+    "license": "MIT",
+    "authors": [
+        {"name": "Francesco Bianco", "email": "info.francescobianco@gmail.com"}
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": { "Javanile\\SchemaDB\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-0": { "Javanile\\SchemaDB\\Tests\\": "tests/" }
+    }
+}
